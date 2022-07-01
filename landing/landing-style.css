@@ -47,10 +47,10 @@ q:before, q:after {
     content: '';
     content: none;
 }
-table {
+/* table {
     border-collapse: collapse;
     border-spacing: 0;
-}
+} */
 
 /* CSS RESET END */
 
@@ -110,6 +110,14 @@ body {
     height: 100vh;
 }
 
+#prices{
+    height: 65vh;
+}
+
+#contacts{
+    height: 35vh;
+}
+
 .title{
     font-size: 32px;
     margin-top: 30px;
@@ -145,4 +153,34 @@ li{
 
 .img2{
     width: 650px;
+}
+
+table{
+    border-radius: 10px;
+    border-color: black;
+}
+
+.price-list{
+    display: flex;
+    width: 100%;
+}
+
+.city-text{
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.city-number{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.phone-text{
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.phone-number{
+    margin-top: 20px;
+    font-size: 20px;
 }

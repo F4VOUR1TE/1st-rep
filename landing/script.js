@@ -23,9 +23,12 @@
         // alert(item)
     // }
 // )
+let burger = document.querySelector('.burger-menu')
+let button = document.querySelector('.nav-open')
 
-let title = document.getElementsByClassName('van-bg-text')
-
-console.log(title)
+button.addEventListener('click',()=>{
+    burger.classList.toggle('opened')
+        
+})
 
 // title.innerHTML = 'HEllo from JS'
